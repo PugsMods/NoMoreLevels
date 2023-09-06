@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.pugzarecute.nomorelevels.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "NoMoreLevels.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "EXPBarMixin",
+    "AnvilMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

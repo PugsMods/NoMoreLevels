@@ -1,0 +1,16 @@
+package com.pugzarecute.nomorelevels;
+
+import net.minecraft.world.entity.player.Player;
+
+public class BadMinecraftFix {
+        public static int trueXP(Player player) {
+            return (int) (getExperienceForLevel(player.experienceLevel)+ (player.experienceProgress*player.getXpNeededForNextLevel()));
+        }
+
+        public static int getExperienceForLevel(int level) {
+            if (level == 0) return 0;
+            else if (level <= 16) return level*level+level*6;
+            else if (level <= 31) return (int) (2.5*level*level-40.5*level+360);
+            else return (int)(4.5 *level*level -162.5*level + 2220);
+        }
+}

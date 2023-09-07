@@ -1,0 +1,5 @@
+{
+  "container.enchant.level.one": "7 Enchantment points",
+  "container.enchant.level.many": "%s Enchantment points",
+  "container.enchant.level.requirement": "Point Requirement: %s"
+}

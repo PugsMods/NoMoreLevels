@@ -34,3 +34,9 @@ mandatory = true
 versionRange = "[1.19.2,1.20)"
 ordering = "NONE"
 side = "BOTH"
+[[dependencies.nomorelevels]]
+modId = "disenchanting"
+mandatory = false
+versionRange = "[2.2.2)"
+ordering = "BEFORE"
+side = "BOTH"

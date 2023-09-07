@@ -8,7 +8,9 @@
   ],
   "client": [
     "EXPBarMixin",
-    "AnvilMixin"
+    "AnvilMixin",
+    "EnchantingTableMixin",
+    "DisenchantingForgeMixin"
   ],
   "injectors": {
     "defaultRequire": 1

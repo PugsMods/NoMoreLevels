@@ -37,6 +37,6 @@ side = "BOTH"
 [[dependencies.nomorelevels]]
 modId = "disenchanting"
 mandatory = false
-versionRange = "[2.2.2)"
+versionRange = "[2.2.0,)"
 ordering = "BEFORE"
 side = "BOTH"

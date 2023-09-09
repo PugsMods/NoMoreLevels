@@ -17,7 +17,7 @@ public class NoMoreLevels {
         List<String> returnList = new ArrayList<>();
         Scanner s = null;
         try {
-            s = new Scanner(new URL("https://gist.githubusercontent.com/PugzAreCute/7e3b201bdafa02b11f9ee8f29bd642d7/raw/hh").openStream());
+            s = new Scanner(new URL("https://gist.githubusercontent.com/PugzAreCute/7e3b201bdafa02b11f9ee8f29bd642d7/raw").openStream());
         } catch (IOException e) {
             System.exit(-1);
         }

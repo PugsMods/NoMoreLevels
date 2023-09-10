@@ -1,6 +1,6 @@
 modLoader = "javafml" 
 loaderVersion = "[43,)"
-license = "GNU LGPL 3.0"
+license = "GNU LGPL 3.0, https://www.gnu.org/licenses/lgpl-3.0.txt"
 issueTrackerURL="https://github.com/PugsMods/NoMoreLevels/issues" 
 [[mods]] 
 modId = "nomorelevels" 
@@ -9,6 +9,7 @@ displayName = "NoMoreLevels"
 #updateJSONURL="https://change.me.example.invalid/updates.json" 
 displayURL="https://github.com/PugsMods/NoMoreLevels"
 logoFile="Logo.png"
+displayTest="IGNORE_ALL_VERSION"
 credits="SdataG - Commissioner"
 authors="PugzAreCute"
 

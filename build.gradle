@@ -20,7 +20,7 @@ group = 'com.pugzarecute'
 version = '1.0-1.19.2'
 
 java {
-    archivesBaseName = 'nomorelevels'
+    archivesBaseName = 'NoMoreLevels'
     toolchain.languageVersion = JavaLanguageVersion.of(17)
 }
 

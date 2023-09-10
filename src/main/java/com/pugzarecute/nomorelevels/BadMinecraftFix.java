@@ -6,8 +6,6 @@ import net.minecraft.world.entity.player.Player;
 
 public class BadMinecraftFix {
         public static int trueXP(Player player) {
-            System.out.println(player.experienceProgress);
-            System.out.println(player.getXpNeededForNextLevel());
             return (int) (getExperienceForLevel(player.experienceLevel)+ ((double)player.experienceProgress*(double)player.getXpNeededForNextLevel()));
 
         }
